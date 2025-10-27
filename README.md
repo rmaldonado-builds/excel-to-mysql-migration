@@ -32,22 +32,39 @@ Este proyecto documenta el proceso completo de transformación de un **seguimien
 ## 📂 Estructura del Proyecto
 
 📦 excel-to-mysql-migration/
+
 ├── 📄 README.md # Documentación principal (este archivo)
+
 ├── 📂 01-datos-origen/ # Datos originales
+
 │ ├── informe-original-anonimizado.xlsx # Excel anonimizado
+
 │ └── descripcion-datos.md # Descripción de columnas y estructura
+
 ├── 📂 02-analisis-diseno/ # Análisis y modelado
+
 │ ├── analisis-estructura.md # Análisis del Excel original
+
 │ ├── diagrama-er.png # Diagrama Entidad-Relación
+
 │ └── normalizacion.md # Proceso de normalización aplicado
+
 ├── 📂 03-scripts-sql/ # Scripts de base de datos
+
 │ ├── 01-create-database.sql # Creación de base de datos
+
 │ ├── 02-create-tables.sql # Creación de tablas
+
 │ ├── 03-insert-data.sql # Inserción de datos
+
 │ └── 04-queries-ejemplo.sql # Consultas de ejemplo y reportes
+
 ├── 📂 04-documentacion/ # Documentación adicional
+
 │ ├── guia-instalacion.md # Cómo reproducir el proyecto
+
 │ └── lecciones-aprendidas.md # Aprendizajes del proceso
+
 └── 📄 .gitignore # Archivos ignorados por Git
 
 ---
